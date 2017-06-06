@@ -1,0 +1,56 @@
+/* Grow */
+h1{
+	font-family: 'Amatic SC', cursive;
+	color: black; 
+	font-size: 36px; 
+	text-align: center;
+}
+p{
+	text-align: center;
+	font-size: 28px;
+	color: black;
+	font-family: 'Roboto';
+	border-radius: 12px;
+	line-height: 1.5em;
+}
+
+.myButton {
+	background: black; 
+	color: white;
+	border-radius: 12px; 
+	margin: 5px; 
+	padding: 20px; 
+	border: none;
+	text-align: center;
+    cursor: pointer; 
+    display: inline-block;
+    vertical-align: middle;
+    transform: translateZ(0);
+    box-shadow: 0 0 1px rgba(0, 0, 0, 0);
+    backface-visibility: hidden;
+    -moz-osx-font-smoothing: grayscale;
+    transition-duration: 0.3s;
+    transition-property: transform;
+}
+
+.myButton:hover,
+.myButton:focus,
+.myButton:active {
+    transform: scale(1.1);
+}
+
+
+#buttonBox{
+	height: 200px;
+	width: 95%; 
+
+}
+
+form {
+	margin-left: 400px;
+	margin-bottom: 50px;
+}
+
+b{
+	margin-left: 120px;
+}
