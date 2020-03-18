@@ -42,15 +42,20 @@ p{
 
 #buttonBox{
 	height: 200px;
-	width: 95%; 
+	width: 50%; 
+	margin: auto;
 
 }
 
 form {
-	margin-left: 400px;
-	margin-bottom: 50px;
+	display: flex; 
+	justify-content: center; 
+	align-items: center; 
+	margin: auto; 
+	
 }
 
 b{
-	margin-left: 120px;
+	padding: 5px; 
+	
 }
